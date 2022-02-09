@@ -22,7 +22,7 @@ int main() {
 			// for every b[i], it is always greater than or equal to
 			// a[i] where where 0 <= i <= (N - 1)
 			// in order for the sequence to be valid, the difference
-			// between every b[i] and a[i] (b[0] - a[0], b[1], a[1], ..., b[n - 1] - a[n - 1])
+			// between every b[i] and a[i] (b[0] - a[0], b[1] - a[1], ..., b[n - 1] - a[n - 1])
 			// is either equal to x or y, otherwise the sequence is not valid
 			assert(b[i] >= a[i]);
 			s.insert(b[i] - a[i]);
